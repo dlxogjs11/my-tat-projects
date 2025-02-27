@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card">
+      <div className="card bg-white">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -25,7 +25,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">프로젝트 생성</p>
+      <p className="read-the-docs font-bold to-blue-500">프로젝트 생성</p>
     </>
   );
 }
